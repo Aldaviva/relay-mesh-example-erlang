@@ -1,0 +1,12 @@
+{application, mesh,
+ [
+  {description, "Relay Mesh server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mesh_app, []}},
+  {env, []}
+ ]}.
